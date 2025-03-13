@@ -57,6 +57,8 @@
 
   p7zip
   
+  pavucontrol
+  wlogout
   
   nautilus
   # nemo

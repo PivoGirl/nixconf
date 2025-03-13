@@ -8,7 +8,9 @@
   };
    
   environment.systemPackages = with pkgs; [
+    hyprshot
     kitty
+    waybar
     wofi
   ];
 
