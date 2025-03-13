@@ -21,6 +21,7 @@
 
   home.sessionVariables = {
     TERMINAL = "alacritty";
+    EDITOR = "vscode"; 
   };
  
   imports = [

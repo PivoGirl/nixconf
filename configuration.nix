@@ -157,11 +157,6 @@
   services.gvfs.enable = true; # Mount, trash, and other functionalities
   services.tumbler.enable = true;
 
-  environment.variables = {
-    TERMINAL = "alacritty";
-    EDITOR = "helix"; 
-    };
-
   #шрифты
   fonts.packages = with pkgs; [
     liberation_ttf
