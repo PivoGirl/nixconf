@@ -1,0 +1,143 @@
+* {
+    /*тут піздец*/
+    font-family: FontAwesome, "Mononoki Nerd Font Propo";
+
+    font-weight: bold;
+    font-size: 17px;
+}
+
+window#waybar {
+    background-color: rgba(60, 56, 54, 0.0);
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+.modules-left {
+    background-color: #32302f;
+    border: 2px solid #252423;
+    padding: 0 0;
+    margin: 3 8 3 8;
+    border-radius: 10px;
+}
+
+.modules-center {
+    background-color: #32302f;
+    border: 2px solid #252423;
+    padding: 0 7;
+    margin: 3 8 3 8;
+    border-radius: 10px;
+}
+
+.modules-right {
+    background-color: #32302f;
+    border: 2px solid #252423;
+    padding: 0 7;
+    margin: 3 8 3 8;
+    border-radius: 10px;
+}
+
+window#waybar.chromium {
+    background-color: #000000;
+    border: none;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces button {
+    padding: 0 7px;
+    border-radius: 10px;
+    color: #89b482;
+
+}
+
+#workspaces button:hover {
+    color: #ddc7a1;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+#workspaces button.focused {
+    color: #ddc7a1;
+
+}
+
+#workspaces button.urgent {
+    color: #d3869b;
+}
+
+
+
+#clock,
+#pulseaudio,
+#tray,
+#mode,
+#window,
+
+
+#clock {
+    color: #d8a657;
+    padding: 5px 7px;
+    border-radius: 10;
+}
+
+#window {
+    color: #ddc7a1;
+    padding: 0 5px;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#pulseaudio {
+    /* background-color: #32302f; */
+    color: #a9b665;
+    padding: 0px 8px 0px 8px;
+    /* margin: 6 0 6 8; */
+    border-radius: 10;
+}
+
+#pulseaudio.muted {
+    color: #424a3e;
+    border-radius: 10;
+}
+
+#tray {
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+#tray>.passive {
+    -gtk-icon-effect: dim;
+    padding: 0px 8px 0px 10px;
+}
+
+#tray>.needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #eb4d4b;
+}
+
+/* #idle_inhibitor {
+    background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+} */
+
+#language {
+    background: #32302f;
+    color: #d3869b;
+    padding: 5px 5px;
+    min-width: 16px;
+    border-radius: 10;
+}
+
+#custom-power {
+    font-size: larger;
+    color: #7daea3;
+}
